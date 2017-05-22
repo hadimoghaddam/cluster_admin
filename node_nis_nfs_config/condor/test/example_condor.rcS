@@ -1,0 +1,10 @@
+executable = /bin/bash 
+arguments = /research/shared/test/run.sh
+output = /research/shared/test/sim.out
+error = /research/shared/test/sim.err
+log = /research/shared/test/sim.log
+Rank=TARGET.Mips
+Requirements = (Machine != "clara-1.csl.illinois.edu")
+universe = vanilla
+getenv = true
+queue

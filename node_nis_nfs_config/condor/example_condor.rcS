@@ -1,0 +1,11 @@
+executable = /bin/bash 
+arguments = /research/malian2/job.sh
+initialdir = /research/malian2
+output = /research/malian2/sim.out
+error = /research/malian2/sim.err
+log = /research/malian2/sim.log
+Rank=TARGET.Mips
+Requirements = (Machine != "clara-1.csl.illinois.edu")
+universe = vanilla
+getenv = true
+queue
